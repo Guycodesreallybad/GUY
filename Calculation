@@ -1,0 +1,20 @@
+# Step 1: Define the function to calculate simple interest
+def calculate_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+# Step 2: Create the main function to get user input and call calculate_interest
+def main():
+    # Get user input for principal amount, rate of interest, and time
+    principal = float(input("Enter the principal amount: "))
+    rate = float(input("Enter the rate of interest (as a percentage): "))
+    time = float(input("Enter the time (in years): "))
+    
+    # Call the calculate_interest function with the user's input
+    interest = calculate_interest(principal, rate, time)
+    
+    # Print the result
+    print(f"The simple interest is: {interest}")
+
+# Step 3: Call the main function to run the program
+if __name__ == "__main__":
+    main()
