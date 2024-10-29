@@ -1,0 +1,21 @@
+def main():
+    # Create the tuple with the given classes
+    programming_classes = (
+        'Intro to Python',
+        'Advanced Python',
+        'Database Essentials',
+        'Web Development Basics',
+        'Data Structures in Python',
+        'Web Design Fundamentals'
+    )
+    
+    # Print each class using a for loop
+    for cls in programming_classes:
+        print(cls)
+    
+    # Print the total number of classes using the len function
+    print(f"\nTotal number of classes: {len(programming_classes)}")
+
+# Call the main function to run the program
+if __name__ == "__main__":
+    main()
